@@ -1,0 +1,32 @@
+.checkbox{
+    position: relative;
+    &__input{
+        position: absolute;
+        top: 0;
+        left: -9999px;
+    }
+    &__input:checked + .checkbox__box{
+        border: 1px solid #32CD32;
+        .fas{
+           opacity: 1;
+            transform: scale(1);
+        }
+    }
+    &__box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        border: 1px solid #ccc;
+        cursor: pointer;
+        .fas{
+            transition: .5s;
+            color: #32CD32;
+           opacity: 0;
+            transform: scale(.5);
+        }
+    }
+}

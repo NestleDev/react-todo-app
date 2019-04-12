@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+html, body{
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  li{
+    list-style: none;
+  }
+}
+
+.fas{
+  font-size: 14px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root{
+  height: 100%;
+}
+
+.container{
+  width: 95%;
+  max-width: 940px;
+  margin: 0;
+}
+
+.completed{
+  background-color: rgba(2, 133, 2, .1);
+  .todo__title{
+    text-decoration: line-through;
+  }
+}
+

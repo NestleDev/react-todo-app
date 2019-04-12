@@ -1,0 +1,10 @@
+.todo-form{
+    position: relative;
+    display: flex;
+    &__input{
+        padding: 10px 110px 10px 20px;
+        flex:1;
+        border: 1px solid #ccc;
+        outline: none;
+    }
+}

@@ -1,0 +1,24 @@
+.todo-totals{
+    display: flex;
+    &__item{
+        flex: 1;
+        margin-left: 20px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: 300;
+       border-bottom:1px solid #ccc;
+       padding: 10px;
+       &:first-child{
+           margin-left: 0;
+       }
+        span{
+            display: flex;
+            padding: 5px 10px;
+            border-radius: 30px;
+            background-color: #05a5d1;
+            color: #fff;
+        }
+    }
+}
